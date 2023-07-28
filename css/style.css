@@ -65,11 +65,6 @@
     font-size : 24px;
 }
 
-.node {
-    font-size : 18px;
-}
-
-
 .list-wrap > .cont {
     text-align: left;
 }
@@ -81,10 +76,16 @@
     font-weight: 600;
     text-decoration: underline;
     text-underline-offset: 5px;
+    font-size: 3vw;
+}
+
+.cb::marker {
+    font-size: 3vw;
 }
 
 .cb .cont {
-    font-size : 2vw;
+    font-size : 3vw;
+    line-height: 1.7;
 }
 
 .is-open {
@@ -94,6 +95,9 @@
 }
 
 @media (min-width: 768px) {
+    #header .inner .has-text-centered .title {
+        font-size : 36px;
+    }
     .list-wrap > .cont {
         font-size : 16px;
     }
