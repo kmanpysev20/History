@@ -39,7 +39,7 @@
     transform-origin: center center;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("/sub/img/icon-arrow-left.svg");
+    background-image: url("../sub/img/icon-arrow-left.svg");
 }
 
 #contents {
