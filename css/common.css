@@ -102,7 +102,7 @@ section {
 }
 
 body {
-    font-size: 16px;
+    font-size: 2vw;
     height: 100%;
     line-height: 1;
     overflow : hidden;
@@ -131,6 +131,9 @@ ol {
 li {
   display: list-item;
   text-align: -webkit-match-parent;
+  font-size : 18px;
+  font-weight: bold;
+  line-height: 2;
 }
 
 blockquote,
@@ -175,4 +178,22 @@ a {
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
+}
+
+.flex-col {
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cb {
+    font-size : 16px;
+    color : blue;
 }

@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
   </head>
   <body>
     <!-- Header -->
@@ -22,18 +23,40 @@
     <!-- // Header -->
     <div id="contents" class="container">
       <section class="inner">
-        <ul>
+        <ul class="list-wrap">
           <li>Reactivity</li>
-            <div class="cont" style="text-align: left;">
-              컴포넌트 상태는 반응형 JavaScript 객체로 합성
-            </div>
+            <div class="cont">컴포넌트 상태는 반응형 JavaScript 객체로 합성</div>
           <li>인스턴스</li>
+            <div class="cont">
+              엄격히 MVVM 패턴과 관련이 없지만 Vue의 디자인은 부분적으로 그것에
+              영감을 받았습니다. 관례적으로, Vue 인스턴스를 참조하기 위해 종종
+              변수 vm(ViewModel의 약자)을 사용
+            </div>
           <li>컴포넌트</li>
+            <div class="cont">
+              컴포넌트(Component)란 조합하여 화면을 구성할 수 있는 블록을
+              의마합니다. 컴포넌트를 활용하면 화면을 빠르게 구조화하여 일괄적인
+              패턴으로 개발 할 수 있으며, 코드를 쉽게 이해하고 재사용
+            </div>
           <li>
             컴포넌트 통신
             <ol>
-              <li>props</li>
-              <li>event emit</li>
+              <li class="cb">
+                <p class="tit">props</p>
+                <div class="cont">
+                  엄격히 MVVM 패턴과 관련이 없지만 Vue의 디자인은 부분적으로
+                  그것에 영감을 받았습니다. 관례적으로, Vue 인스턴스를 참조하기
+                  위해 종종 변수 vm(ViewModel의 약자)을 사용
+                </div>
+              </li>
+              <li class="cb">
+                <p class="tit">event emit</p>
+                <div class="cont">
+                  엄격히 MVVM 패턴과 관련이 없지만 Vue의 디자인은 부분적으로
+                  그것에 영감을 받았습니다. 관례적으로, Vue 인스턴스를 참조하기
+                  위해 종종 변수 vm(ViewModel의 약자)을 사용
+                </div>
+              </li>
             </ol>
           </li>
           <li>HTTP 통신 라이브러리 (axios)</li>
@@ -50,4 +73,6 @@
       </section>
     </div>
   </body>
+
+  <script src="../js/common.js"></script>
 </html>
